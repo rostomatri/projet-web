@@ -1,0 +1,145 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+} */
+.footer-text {
+    text-align: center; 
+    color:rgb(25, 0, 147);
+    margin-top :1%;
+    
+    font-weight: lighter;
+ }
+ * {
+    box-sizing: border-box
+}
+/* .image-slideshow {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+} */
+img {
+  width: 100%
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+.carousel-inner img {
+    max-width: 700px;
+  position: relative;
+  margin: auto;
+    
+}
+/* .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 4px rgb(220, 220, 220);
+  padding: 1.2%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+} */
+  /* body {
+    font-family: "poppins";
+  height: 100vh;
+  width: 100vw;
+  background-image: url('home.png');
+  background-size: cover;
+ } */
+ .container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+ .row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ .col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.col-3 img {
+  width: 100%;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.icon{
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+}
+h1{
+    text-align: center ;
+    margin-top: 3%;
+    font-weight: lighter;
+}
+/* Assurez-vous que les diaporamas soient alignés côte à côte */
+.slideshow-container {
+  display: flex;
+}
+
+/* Réduisez l'espace entre les diaporamas si nécessaire */
+.image-slideshow {
+  margin-right: 20px;
+}
+
+/* Assurez-vous que les images à l'intérieur du diaporama occupent tout l'espace */
+.image-slideshow .image {
+  width: 100%;
+}
+
+/* Vos styles existants pour le diaporama (vous pouvez les laisser tels quels) */
+.image-slideshow {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.image {
+  display: none;
+}
+
+.fade {
+  animation: fade 10s ease-in-out infinite;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.containers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  }
+  .Mypara {
+    color: #747474 ;
+    width: 40%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    }
